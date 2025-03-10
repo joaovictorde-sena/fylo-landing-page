@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px){
+    header {
+        padding: 10px;
+    }
+
+    header .logo img {
+        height: 30px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li a {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .intro {
+        padding: 30px 20px 80px;
+    }
+
+    .intro-content {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .intro-content img {
+        max-width: 100%;
+    }
+
+    .intro-content h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .feature-item {
+        max-width: 100%;
+    }
+
+    .stay-productive{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .stay-productive img {
+        max-width: 100%;
+    }
+
+    .stay-productive-content {
+        max-width: 100%;
+    }
+
+    .stay-productive-content h2 {
+        font-size: 24px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .testimonial-item p {
+        font-size: 14px;
+    }
+
+    .profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .early-access {
+        padding: 20px;
+        margin: 15px 20px;
+        transform: translateY(20%);
+    }
+
+    .early-access h2 {
+        font-size: 24px;
+    }
+
+    .early-access p {
+        font-size: 14px;
+    }
+
+    .early-access form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .early-access input {
+        width: 100%;
+    }
+
+    .early-access button {
+        width: 100%;
+    }
+
+    .footer-content {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-logo img {
+        max-width: 100%; 
+        margin: 15px auto auto 20px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .footer-location, .footer-contact, .footer-links, .footer-social {
+        min-width: 100%;
+    }
+
+
+    .footer-location p {
+        margin-right: 70px;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 10px;
+        
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+}

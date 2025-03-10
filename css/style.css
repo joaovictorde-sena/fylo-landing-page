@@ -67,6 +67,10 @@ h1, h2, button {
 }
 
 .intro-content button {
+    font-size: 14px;
+}
+
+.intro-content button {
     max-width: 350px;
     margin-top: 25px;
     padding: 10px 20px;
