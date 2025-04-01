@@ -99,7 +99,7 @@ h1, h2, button {
 
 .feature-item {
     text-align: center;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .feature-item h3 {
@@ -109,8 +109,8 @@ h1, h2, button {
 }
 
 .feature-item img {
-    max-width: 71px;
-    max-height: 64px;
+    max-width: 80px;
+    max-height: 74px;
     padding: 5px;
 }
 
@@ -223,7 +223,7 @@ h1, h2, button {
     border-radius: 15px;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -293,10 +293,18 @@ footer {
     gap: 15px;
 }
 
+.contact-item p, img {
+    cursor: pointer;
+}
+
 .contact-item img {
     margin-top: 5px;
     width: 15px;
     height: 12px;
+}
+
+.logo, .footer-logo {
+    cursor: pointer;
 }
 
 .footer-links {
