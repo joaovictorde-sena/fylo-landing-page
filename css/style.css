@@ -213,6 +213,7 @@ h1, h2, button {
     padding: 10px;
     border: none;
     border-radius: 15px;
+    outline: none;
     width: 300px;
 }
 
